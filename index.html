@@ -5,10 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
+    <header class="bg-gray-200">
+        <nav class="max-w-screen-2xl mx-auto  h-20 flex items-center justify-between ">
+            <div>
+                <h1 class="bg-white text-amber-500 font-extrabold text-2xl px-6 py-4 rounded-lg">Sylvan Schumm</h1>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="mr-4 text-amber-400 font-bold hover:underline hover:text-xl">Home</div>
+                <div class="mr-4">Case Studies</div>
+                <button class="bg-amber-400 text-white rounded-lg px-8 py-3"> Contact Us</button>
+            </div>
+        </nav>
 
+
+
+    </header>
+
+    <main class="max-w-screen-2xl mx-auto">
+        <section class="md:flex justify-between items-center mb-8">
+            <div>
+                <h1 class="text-4xl md:text-8xl mb-4">Lorem ipsum is <br> simply dummy text</h1>
+                <h3 class="text-2xl md:text-4xl">Get Expert help From</h3>
+                <h3 class="text-2xl md:text-4xl font-bold text-amber-500 mb-6">Sylvan Schumm</h3>
+                <button class="bg-amber-400 px-10 py-3 font-bold text-white rounded-lg">Get free 1h consultation</button>
+            </div>
+            <div class="w-3/5">
+                <img src="img/banner.png" alt="">
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center">
+            <div class="">
+                <h3>Beyond the hashtag</h3>
+                <h4>A Tiktok leader tackles the dental industry</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Quod suscipit enim cupiditate blanditiis explicabo quidem <br> optio sit recusandae est atque unde eos odio, mollitia <br> perferendis id natus vel! Tempore, tenetur?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ad quibusdam laboriosam porro perferendis suscipit cum <br> accusantium in aut voluptatem amet! Eveniet, non? Officia <br> sit impedit quis quaerat hic voluptate magni.</p>
+
+                <button>Lets Go Started</button>
+
+            </div>
+            <div>
+                <img src="img/Frame 28.png" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
